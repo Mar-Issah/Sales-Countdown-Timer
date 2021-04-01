@@ -1,11 +1,12 @@
 # Sales Countdown Timer
-The displays sales countdown timer in single product page . The clocks run every second until time elapses. Once time elapses, it displays "sorry, this giveaway has expired!"
+This is a simple web application web application project mainly to practice my HTML5 and CSS3 skills.
+
 
 ## About The Project
 
 ![Sales Countdown Timer](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617237028/My%20Website%20Projects/sales_countdown_timer_jkgdxj.png)
 
-This is a simple web application web application project mainly to practice my HTML5 and CSS3 skills.
+The displays sales countdown timer in single product page . The clocks run every second until time elapses. Once time elapses, it displays "sorry, this giveaway has expired!"
 
 <br>
 
