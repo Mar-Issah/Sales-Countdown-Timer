@@ -1,0 +1,142 @@
+/*=====================
+ global 
+======================*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+	/* ---------theme colors (varibale)---------- */
+	--bg-gray: #bdb8b1;
+	--text-curry: #cc8523;
+	--text-curry2: rgb(205, 130, 35);
+	--blue: #231a9c;
+	--sky-blue: #a1c9d4;
+	--transition: all 0.5s linear;
+	--offwhite: #f2f2f2;
+	--b-radius: 0.5rem;
+	--white: #fff;
+	--offwhite: #f2f2f2;
+	--black: #000000;
+	--wine: #751014;
+	--b-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--ff-open-sans: "Open Sans", sans-serif;
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 0.875rem;
+	font-family: var(--ff-open-sans);
+	color: var(--text-curry);
+}
+
+/*=====================
+ section 
+======================*/
+h2 {
+	margin-bottom: 1rem;
+	margin-top: 1.5rem;
+}
+
+h4 {
+	margin-bottom: 1rem;
+}
+
+.section-center {
+	width: 90vw;
+	margin: 6rem auto;
+	max-width: 1170px;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+	color: var(--text-curry);
+}
+
+p,
+h4 {
+	color: var(--blue);
+}
+
+img {
+	display: block;
+	object-fit: cover;
+	height: 21rem;
+	width: 100%;
+	border-radius: var(--b-radius);
+	transition: var(--transition);
+}
+
+img:hover {
+	transform: scale(1.05);
+}
+
+.deadline {
+	display: flex;
+	margin-top: 1.5rem;
+}
+
+.deadline-format {
+	background: var(--wine);
+	color: var(--white);
+	margin-right: 1rem;
+	width: 5rem;
+	height: 5rem;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	border-radius: var(--b-radius);
+}
+
+/*=====================
+ footer 
+======================*/
+
+footer {
+	display: block;
+	width: 100%;
+	background: var(--bg-gray);
+	text-align: center;
+	padding: 2.5rem 0.5rem;
+	color: var(--text-curry);
+	font-size: 0.95rem;
+}
+
+.linkedin {
+	color: var(--blue);
+}
+
+/*=====================
+ media 
+======================*/
+@media screen and (min-width: 800px) {
+	body {
+		font-size: 1rem;
+	}
+
+	.section-center {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		place-items: center;
+		gap: 3rem;
+		width: 95vw;
+	}
+
+	h2 {
+		line-height: 1;
+		font-size: 1.75rem;
+		margin-bottom: 1rem;
+	}
+
+	h4 {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+}
