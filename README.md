@@ -6,7 +6,7 @@ This is a simple web application web application project mainly to practice my H
 
 ![Sales Countdown Timer](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617237028/My%20Website%20Projects/sales_countdown_timer_jkgdxj.png)
 
-The displays sales countdown timer in single product page . The clocks run every second until time elapses. Once time elapses, it displays "sorry, this giveaway has expired!"
+This app displays sales countdown timer in single product page . The clocks run every second until time elapses. Once time elapses, it displays "sorry, this giveaway has expired!"
 
 <br>
 
