@@ -57,7 +57,7 @@ function getRemainingTime() {
     const oneHour = 60 * 60 * 1000;
     const oneMinute = 60 * 1000;
 
-    //calc the days
+    //calc. the days
     let days = diff / oneDay;
     days = Math.floor(days);      //the no. of days =8
 
