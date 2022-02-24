@@ -34,7 +34,7 @@ const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
 
 //get week and month from array and use it to display the giveaway text
-let month = futureDate.getMonth(); 
+let month = futureDate.getMonth();
 month = months[ month ];
 
 const date = futureDate.getDate();
@@ -81,17 +81,17 @@ function getRemainingTime() {
         }
         return item;
     }
-    
+
     items.forEach((item, index) => {
         item.innerHTML = format(values[ index ]);
-         
-//once the diff or milliseconds is less than 0 clear the countdown and display 
+
+//once the diff or milliseconds is less than 0 clear the countdown and display
     if (diff < 0) {
     clearInterval(countdown);
-    deadline.innerHTML = `<h3 class="expired">sorry, this giveaway has expired!</h3>`;
-  }          
+    deadline.innerHTML = `<h3 class="expired">Sorry, this giveaway has expired!</h3>`;
+  }
     });
-    
+
 }
 // countdown set interval calls the fxn each sec
 let countdown = setInterval(getRemainingTime, 1000);
