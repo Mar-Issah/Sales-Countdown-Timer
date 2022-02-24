@@ -1,5 +1,5 @@
 /*=====================
- global 
+ global
 ======================*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
@@ -16,7 +16,7 @@
 	--white: #fff;
 	--offwhite: #f2f2f2;
 	--black: #000000;
-	--wine: #751014;
+	--wine: #751015;
 	--b-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 	--ff-open-sans: "Open Sans", sans-serif;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 /*=====================
- section 
+ section
 ======================*/
 h2 {
 	margin-bottom: 1rem;
@@ -96,7 +96,7 @@ img:hover {
 }
 
 /*=====================
- footer 
+ footer
 ======================*/
 
 footer {
@@ -114,7 +114,7 @@ footer {
 }
 
 /*=====================
- media 
+ media
 ======================*/
 @media screen and (min-width: 800px) {
 	body {
