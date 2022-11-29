@@ -78,4 +78,4 @@ Marsiya Issah : masy370@gmail.com
 
 Project Link: [https://github.com/Mar-Issah/Sales-Countdown-Timer.git](https://github.com/Mar-Issah/Sales-Countdown-Timer.git).
 
-Kindly check out more of my projects in [CodePen](https://codepen.io/your-work/)
+Kindly check out more of my projects in [CodePen](https://codepen.io/your-work/).
