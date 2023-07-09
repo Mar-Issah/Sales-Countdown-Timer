@@ -1,6 +1,6 @@
 # Sales Countdown Timer
 
-This is a simple web application project mainly to practice my HTML5, CSS3 and JavaScript skills.
+This is a simple Web application project mainly to practice my HTML5, CSS3 and JavaScript skills.
 
 ## About The Project
 
