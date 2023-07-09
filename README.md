@@ -22,6 +22,7 @@ This app displays sales countdown timer in single product page. The clocks run e
 
 <!-- GETTING STARTED -->
 
+
 ## Getting Started
 
 This is JavaScript Web application which runs in the browser. You need a V8 engine to run JavaScript program. For the purpose of this project I used Google Chrome browser.
